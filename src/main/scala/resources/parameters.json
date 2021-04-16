@@ -1,0 +1,16 @@
+{
+  "anomalyCheckParameters": {
+    "w": 1.0,
+    "f": 2.0
+  },
+  "metricSpecificParameters": {
+    "cleanRecommendedLimitsCount": {
+      "f": 20.0,
+      "d": 30.0
+    },
+    "predictedLimitsSum": {
+      "w": 100.0,
+      "f": 200.0
+    }
+  }
+}
