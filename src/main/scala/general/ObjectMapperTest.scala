@@ -16,7 +16,7 @@ object ObjectMapperTest {
   def run() = {
     val mapper = new ObjectMapper()
     mapper.registerModule(DefaultScalaModule)
-    val json = fromFile("/Users/parkzsp/Dev/Scala-Test/src/main/scala/resources/parameters.json")
+    val json = fromFile("/Users/parkzsp/Dev/scala-study/src/main/scala/resources/parameters.json")
     val parameter = mapper.readValue(json.reader(), classOf[AnomalyCheckParametersOverrideConfig])
 
     println(parameter)

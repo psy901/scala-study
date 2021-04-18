@@ -9,7 +9,7 @@ object Main{
 //    ReadFile.testInputStreamReader()
 //    ControlStructures.testMultipleCases()
 //    ConcurrencyWithFuture.run()
-    ObjectMapperTest.run()
-
+//    ObjectMapperTest.run()
+      ClassesAndProperties.test
   }
 }

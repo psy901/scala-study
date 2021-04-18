@@ -63,11 +63,13 @@ object ControlStructures {
 
 
   }
+
+
 }
 
 object validationUtils {
   def parseRequired(value: String): String \/ String = {
-        if (value.isEmpty) -\/(s"value cannot be empty") else \/-(value)
+    if (value.isEmpty) -\/(s"value cannot be empty") else \/-(value)
   }
 }
 case class Person(name: String)
