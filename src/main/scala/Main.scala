@@ -10,6 +10,7 @@ object Main{
 //    ControlStructures.testMultipleCases()
 //    ConcurrencyWithFuture.run()
 //    ObjectMapperTest.run()
-      ClassesAndProperties.test
+//      ClassesAndProperties.test
+    Ch10_Collections.run()
   }
 }
